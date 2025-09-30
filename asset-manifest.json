@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/avocado-marketplace/static/css/main.d9ac50ed.css",
+    "main.js": "/avocado-marketplace/static/js/main.a31ca747.js",
+    "static/js/977.a45d276d.chunk.js": "/avocado-marketplace/static/js/977.a45d276d.chunk.js",
+    "static/js/455.d34679c6.chunk.js": "/avocado-marketplace/static/js/455.d34679c6.chunk.js",
+    "static/js/453.ad7d2679.chunk.js": "/avocado-marketplace/static/js/453.ad7d2679.chunk.js",
+    "index.html": "/avocado-marketplace/index.html",
+    "main.d9ac50ed.css.map": "/avocado-marketplace/static/css/main.d9ac50ed.css.map",
+    "main.a31ca747.js.map": "/avocado-marketplace/static/js/main.a31ca747.js.map",
+    "977.a45d276d.chunk.js.map": "/avocado-marketplace/static/js/977.a45d276d.chunk.js.map",
+    "455.d34679c6.chunk.js.map": "/avocado-marketplace/static/js/455.d34679c6.chunk.js.map",
+    "453.ad7d2679.chunk.js.map": "/avocado-marketplace/static/js/453.ad7d2679.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9ac50ed.css",
+    "static/js/main.a31ca747.js"
+  ]
+}
