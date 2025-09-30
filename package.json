@@ -2,7 +2,7 @@
   "name": "avocado-marketplace",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://etiennedoidic.github.io/avocado-marketplace",
+  "homepage": "https://etiennedoidic.github.io/avocado-trader",
   "dependencies": {
     "@stripe/react-stripe-js": "^4.0.2",
     "@stripe/stripe-js": "^7.9.0",
