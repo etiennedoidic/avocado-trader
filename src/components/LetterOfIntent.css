@@ -1,0 +1,233 @@
+.letter-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.letter-modal-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.letter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+  background: #f8f9fa;
+  border-radius: 8px 8px 0 0;
+}
+
+.letter-header h2 {
+  margin: 0;
+  color: #2c5530;
+  font-size: 1.5rem;
+}
+
+.letter-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.download-btn {
+  background: #2c5530;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #1e3a21;
+}
+
+.close-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background: #545b62;
+}
+
+.letter-content {
+  padding: 2rem;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.letter-header-section {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.letter-date {
+  font-weight: bold;
+  color: #666;
+}
+
+.letter-body {
+  margin-bottom: 2rem;
+}
+
+.letter-greeting {
+  margin-bottom: 1.5rem;
+}
+
+.letter-greeting p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.letter-main p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.order-details-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #2c5530;
+}
+
+.order-details-section h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #2c5530;
+  font-size: 1.2rem;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.order-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+.order-table td:first-child {
+  width: 40%;
+  font-weight: bold;
+}
+
+.letter-terms {
+  margin: 2rem 0;
+}
+
+.letter-terms h3 {
+  color: #2c5530;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.letter-terms ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.letter-terms li {
+  margin-bottom: 0.5rem;
+}
+
+.letter-signature {
+  margin: 2rem 0;
+}
+
+.signature-block {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+}
+
+.signature-block p {
+  margin: 0.25rem 0;
+}
+
+.letter-closing {
+  margin-top: 3rem;
+}
+
+.letter-closing p {
+  margin: 0.5rem 0;
+}
+
+.letter-closing p:first-child {
+  margin-top: 2rem;
+}
+
+/* Print styles */
+@media print {
+  .letter-modal-overlay {
+    position: static;
+    background: none;
+    padding: 0;
+  }
+  
+  .letter-modal-content {
+    box-shadow: none;
+    border-radius: 0;
+    max-height: none;
+  }
+  
+  .letter-header {
+    display: none;
+  }
+  
+  .letter-content {
+    padding: 0;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .letter-modal-overlay {
+    padding: 1rem;
+  }
+  
+  .letter-content {
+    padding: 1rem;
+  }
+  
+  .letter-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .order-table {
+    font-size: 0.9rem;
+  }
+}
+
